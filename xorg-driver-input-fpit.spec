@@ -1,5 +1,5 @@
 Summary:	X.org input driver for Fujitsu Stylistic Tablet PCs
-Summary(pl):	Sterownik wej∂ciowy X.org dla komputerÛw Fujitsu Stylistic Tablet
+Summary(pl.UTF-8):   Sterownik wej≈õciowy X.org dla komputer√≥w Fujitsu Stylistic Tablet
 Name:		xorg-driver-input-fpit
 Version:	1.1.0
 Release:	0.1
@@ -24,9 +24,9 @@ X.org input driver for Fujitsu Stylistic Tablet PCs. This driver
 supports the touchscreen of the Stylistic LT and (with special
 options) of the Stylistic 500, 1000 and 2300.
 
-%description -l pl
-Sterownik wej∂ciowy X.org dla komputerÛw Fujitsu Stylistic Tablet. Ten
-sterownik obs≥uguje ekrany dotykowe Stylistic LT i (ze specjalnymi
+%description -l pl.UTF-8
+Sterownik wej≈õciowy X.org dla komputer√≥w Fujitsu Stylistic Tablet. Ten
+sterownik obs≈Çuguje ekrany dotykowe Stylistic LT i (ze specjalnymi
 opcjami) Stylistic 500, 1000 i 2300.
 
 %prep
