@@ -1,12 +1,12 @@
 Summary:	X.org input driver for Fujitsu Stylistic Tablet PCs
 Summary(pl.UTF-8):	Sterownik wejściowy X.org dla komputerów Fujitsu Stylistic Tablet
 Name:		xorg-driver-input-fpit
-Version:	1.1.0
+Version:	1.2.0
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-input-fpit-%{version}.tar.bz2
-# Source0-md5:	a31066a2076d18619ceaea67f6d89698
+# Source0-md5:	0f3e013d5ff58e0aba3d9e1d18830291
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -24,12 +24,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 X.org input driver for Fujitsu Stylistic Tablet PCs. This driver
 supports the touchscreen of the Stylistic LT and (with special
-options) of the Stylistic 500, 1000 and 2300.
+options) of the Stylistic 500, 1000, 1200, 2300 and 3400. Modern
+FinePoint MP800 devices will also work with this driver.
 
 %description -l pl.UTF-8
 Sterownik wejściowy X.org dla komputerów Fujitsu Stylistic Tablet. Ten
 sterownik obsługuje ekrany dotykowe Stylistic LT i (ze specjalnymi
-opcjami) Stylistic 500, 1000 i 2300.
+opcjami) Stylistic 500, 1000, 1200, 2300 i 3400. Nowe urządzenia
+FinePoint MP800 także będą działać z tym sterownikiem.
 
 %prep
 %setup -q -n xf86-input-fpit-%{version}
