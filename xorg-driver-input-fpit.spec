@@ -1,12 +1,12 @@
 Summary:	X.org input driver for Fujitsu Stylistic Tablet PCs
 Summary(pl.UTF-8):	Sterownik wejściowy X.org dla komputerów Fujitsu Stylistic Tablet
 Name:		xorg-driver-input-fpit
-Version:	1.2.0
-Release:	2
+Version:	1.3.0
+Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-input-fpit-%{version}.tar.bz2
-# Source0-md5:	0f3e013d5ff58e0aba3d9e1d18830291
+# Source0-md5:	e5bfda480f25121e3c4222e5e1eb5880
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
