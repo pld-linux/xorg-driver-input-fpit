@@ -1,0 +1,11 @@
+--- xf86-input-fpit-1.4.0/configure.ac~	2011-06-27 04:14:09.000000000 +0200
++++ xf86-input-fpit-1.4.0/configure.ac	2013-04-07 21:34:34.026998273 +0200
+@@ -27,7 +27,7 @@
+         xf86-input-fpit)
+ 
+ AC_CONFIG_SRCDIR([Makefile.am])
+-AM_CONFIG_HEADER([config.h])
++AC_CONFIG_HEADERS([config.h])
+ AC_CONFIG_AUX_DIR(.)
+ 
+ # Initialize Automake

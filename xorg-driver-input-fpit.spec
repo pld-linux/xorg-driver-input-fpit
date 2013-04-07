@@ -2,11 +2,12 @@ Summary:	X.org input driver for Fujitsu Stylistic Tablet PCs
 Summary(pl.UTF-8):	Sterownik wejściowy X.org dla komputerów Fujitsu Stylistic Tablet
 Name:		xorg-driver-input-fpit
 Version:	1.4.0
-Release:	5
+Release:	6
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-input-fpit-%{version}.tar.bz2
 # Source0-md5:	042c95fec145d8b57ca62714131ff3f1
+Patch0:		am.patch
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -35,6 +36,7 @@ FinePoint MP800 także będą działać z tym sterownikiem.
 
 %prep
 %setup -q -n xf86-input-fpit-%{version}
+%patch0 -p1
 
 %build
 %{__libtoolize}
